@@ -7,4 +7,4 @@ In the year 2045, a rogue AI has taken over the world's digital infrastructure. 
 Find all 10 flags hidden in the CMS server. Each flag is associated with a vulnerability from the OWASP Top 10 list. Use your skills to exploit these vulnerabilities and retrieve the flags.
 
 ## How to Play
-Refer to the [How to Play](how-to-play.md) guide for instructions on participating in CTF challenges and the tools you can use.
+Refer to the [How to Play](how_to_play.md) guide for instructions on participating in CTF challenges and the tools you can use.
