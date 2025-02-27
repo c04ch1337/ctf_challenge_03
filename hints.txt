@@ -1,0 +1,12 @@
+# Hints for CTF Challenge 03
+
+1. **Flag 1**: Look for a common misconfiguration in the CMS login page.
+2. **Flag 2**: Check for insecure file upload functionality.
+3. **Flag 3**: Exploit SQL injection in the search feature.
+4. **Flag 4**: Find a hidden directory using directory brute-forcing.
+5. **Flag 5**: Exploit XSS in the comment section.
+6. **Flag 6**: Crack a weak password hash.
+7. **Flag 7**: Exploit a misconfigured .htaccess file.
+8. **Flag 8**: Use a known exploit for an outdated CMS plugin.
+9. **Flag 9**: Exploit a CSRF vulnerability in the admin panel.
+10. **Flag 10**: Decode a base64-encoded string in the page source.
