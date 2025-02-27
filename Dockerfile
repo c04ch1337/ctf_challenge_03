@@ -10,19 +10,19 @@ RUN apt-get update && \
 COPY web/ /var/www/html/
 
 # Copy setup scripts
-COPY scripts/setup-cms.sh /usr/local/bin/setup-cms.sh
-COPY scripts/setup-flags.sh /usr/local/bin/setup-flags.sh
+COPY scripts/setup_cms.sh /usr/local/bin/setup_cms.sh
+COPY scripts/setup_flags.sh /usr/local/bin/setup_flags.sh
 
 # Set permissions
-RUN chmod +x /usr/local/bin/setup-cms.sh && \
-    chmod +x /usr/local/bin/setup-flags.sh
+RUN chmod +x /usr/local/bin/setup_cms.sh && \
+    chmod +x /usr/local/bin/setup_flags.sh
 
 # Expose port 80
 EXPOSE 80
 
 # Run setup scripts
-RUN /usr/local/bin/setup-cms.sh && \
-    /usr/local/bin/setup-flags.sh
+RUN /usr/local/bin/setup_cms.sh && \
+    /usr/local/bin/setup_flags.sh
 
 # Start Apache
 CMD ["apache2ctl", "-D", "FOREGROUND"]
