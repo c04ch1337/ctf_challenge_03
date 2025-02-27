@@ -1,1 +1,12 @@
-
+CTF Challenge 3: The Forgotten CMS
+Flag	Hint
+CTF{weak_credentials}	Look for a common misconfiguration in the CMS login page.
+CTF{insecure_file_upload}	Check for insecure file upload functionality.
+CTF{sql_injection}	Exploit SQL injection in the search feature.
+CTF{directory_traversal}	Find a hidden directory using directory brute-forcing.
+CTF{xss_vulnerability}	Exploit XSS in the comment section.
+CTF{weak_password_hash}	Crack a weak password hash.
+CTF{misconfigured_htaccess}	Exploit a misconfigured .htaccess file.
+CTF{outdated_plugin}	Use a known exploit for an outdated CMS plugin.
+CTF{csrf_vulnerability}	Exploit a CSRF vulnerability in the admin panel.
+CTF{base64_encoded}	Decode a base64-encoded string in the page source.
